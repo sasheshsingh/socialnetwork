@@ -5,7 +5,7 @@ from drf_yasg import openapi
 schema_view = get_schema_view(
     openapi.Info(
         title="Social Networking API",
-        default_version='v1',
+        default_version="v1",
         description="API documentation for the social networking application",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="contact@example.com"),
